@@ -22,7 +22,7 @@ public class Painel extends JFrame {
 	private JPanel[][] squares;
 	private JPanel mainPanel;
 	
-		public Painel(int DIM_X, int DIM_Y) {
+	public Painel(int DIM_X, int DIM_Y) {
       setDefaultCloseOperation(EXIT_ON_CLOSE);
 			
 			this.DIM_X = DIM_X;
@@ -36,7 +36,7 @@ public class Painel extends JFrame {
       
       this.pack();
       this.setVisible(true);
-		}
+	}
 
 	private void init() {
 		Container c = getContentPane();
